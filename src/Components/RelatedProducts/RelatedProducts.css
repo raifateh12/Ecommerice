@@ -1,0 +1,40 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 85vh;
+}
+.relatedproducts h1{
+    color: #171717;
+    font-size: 45px;
+    font-weight: 600;
+}
+.relatedproducts hr{
+    width: 200px;
+    min-height: 6px;
+    background: #252525;
+    border-radius: 20px;
+}
+.relatedproducts-items{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .relatedproducts h1 {
+        font-size: 35px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .relatedproducts h1 {
+        font-size: 30px;
+    }
+    .relatedproducts {
+        height: auto; 
+       padding: 20px;
+    }
+}
